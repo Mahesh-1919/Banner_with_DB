@@ -1,7 +1,7 @@
 export const calculateTimeLeft = (days) => {
   let year = new Date().getFullYear();
   let month = new Date().getMonth() + 1;
-  let day = new Date().getDate() + 2;
+  let day = new Date().getDate() + 4;
 
   const difference = +new Date(`${year}-${month}-${day}`) - +new Date();
 
